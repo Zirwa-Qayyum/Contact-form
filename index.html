@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="start">
+    <div class="first">
+      <h1>Contact Form</h1>
+    </div>
+
+    <div class="next">
+      <div class="new">
+        <p>First Name*</p>
+      </div>
+      <div class="two">
+        <p>Last Name*</p>
+      </div>
+    </div>
+
+    <div class="set">
+      <div class="second">
+        <input type="text" id="firstName" />
+      </div>
+      <div class="third">
+        <input type="text" id="lastName" />
+      </div>
+    </div>
+
+    <div class="fourth">
+      <p>Email address*</p>
+    </div>
+
+    <div class="fifth">
+      <input type="email" id="email" />
+    </div>
+
+    <div class="sixth">
+      <p>Query Type*</p>
+    </div>
+
+    <div class="divs">
+      <div class="seventh">
+        <input type="radio" name="query" id="general" value="General Inquiry" />
+        <label for="general">General Inquiry</label>
+      </div>
+      <div class="eight">
+        <input type="radio" name="query" id="support" value="Support Request" />
+        <label for="support">Support Request</label>
+      </div>
+    </div>
+
+    <div class="nine">
+      <p>Message*</p>
+    </div>
+
+    <div class="ten">
+      <textarea id="message"></textarea>
+    </div>
+
+    <div class="end">
+      <div class="eleven">
+        <input type="checkbox" id="consent" />
+      </div>
+      <div class="twelve">
+        <p>I consent to being contacted by the team</p>
+      </div>
+    </div>
+
+    <div class="last">
+      <button id="submitBtn">Submit</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
